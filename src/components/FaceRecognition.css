@@ -1,0 +1,97 @@
+/* FaceRecognitionPage Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc; /* Light blue-gray background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Full-width container */
+.face-recognition-container {
+    background: #ffffff; /* White background */
+    padding: 2.5rem;
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+.face-recognition-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #0047ab; /* Modern blue color */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.face-recognition-container img {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
+    border: 3px solid #0047ab; /* Blue border */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#status {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background: #f0f4ff; /* Light blue background */
+    color: #0047ab; /* Modern blue text color */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+/* Button Styles */
+.face-recognition-container .action-button {
+    background-color: #0047ab;
+    color: #ffffff;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.face-recognition-container .action-button:hover {
+    background-color: #003a91;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .face-recognition-container h1 {
+        font-size: 2rem;
+    }
+
+    .face-recognition-container img {
+        max-width: 100%;
+    }
+
+    #status {
+        font-size: 1rem;
+    }
+}
+
+.dashboard-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0047ab;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+    background-color: #003a91;
+}
